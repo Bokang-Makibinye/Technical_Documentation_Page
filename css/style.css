@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin: 0px;
+  background-color: #D9D9D6;
+  font-family: 'Spline Sans', sans-serif;
+}
+
+nav {
+  max-width: 250px;
+  border-right: 2px solid darkgrey;
+  background-color: #154734;
+}
+
+nav header {
+  font-size: 25px;
+  color: white;
+}
+main {
+  flex: 1;
+  padding: 10px;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+main header {
+  font-size: 30px;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  border-top: 1px solid darkgrey;
+
+}
+pre {
+  padding-top: 14px;
+  background-color: white;
+}
+
+section {
+  padding: 15px;
+}
